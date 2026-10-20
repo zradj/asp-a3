@@ -30,8 +30,16 @@ int main() {
 
   int *arr;
   timespec_get(&start, TIME_UTC);
+  for (int i = 0; i < TRIES; i++) {
+    arr = heap_arr();
+    free(arr);
+  }
+  timespec_get(&end, TIME_UTC);
+  printf("Heap array (with free): %lf seconds\n", calc_time(start, end));
+
+  timespec_get(&start, TIME_UTC);
   for (int i = 0; i < TRIES; i++)
     heap_arr();
   timespec_get(&end, TIME_UTC);
-  printf("Heap array: %lf seconds\n", calc_time(start, end));
+  printf("Heap array (without free): %lf seconds\n", calc_time(start, end));
 }
