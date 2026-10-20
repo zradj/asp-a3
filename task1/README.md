@@ -1,6 +1,6 @@
 # Task 1 - Static vs. Stack vs. Heap Arrays in C
 
-This task compares the time taken by static, stack, and heap array declarations in C. Each array contains 1 million 32-bit integers, and the declarations are retried 1 million times each. You can change this parameters by changing the `SIZE` and `TRIES` macros in `main.c`.
+This task compares the time taken by static, stack, and heap array declarations in C. Each array contains 1 million 32-bit integers, and the declarations are retried 1 million times each. You can change these parameters by changing the `SIZE` and `TRIES` macros in `main.c`.
 
 The `static_arr` function declares a static array by using the `static` keyword. The `stack_arr` function declares a stack array by using the usual array declaration syntax. The `heap_arr` function declares a heap array by calling `malloc`.
 
