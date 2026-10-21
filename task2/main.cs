@@ -21,11 +21,13 @@ class Program {
         Console.WriteLine();
         Console.WriteLine("Dynamic binding (overriding)");
         Console.WriteLine();
-        
-        parent.PrintClassName();
-        CoolChild child = new CoolChild();
-        child.PrintClassName();
-        ((CoolClass)child).PrintClassName();
+
+        CoolChild child1 = new CoolChild();
+        CoolChild child2 = new CoolChild();
+
+        CoolClass[] arr = { parent, child1, child2 };
+        foreach (CoolClass item in arr) {
+            item.PrintClassName();
+        }
     }
 }
-
