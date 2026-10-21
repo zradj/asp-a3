@@ -8,11 +8,11 @@ class LibraryItem
   end
 
   def item_info
-    %Q[title="#{@title}", author="#{@author}", publication_year="#{@publication_year}"]
+    %Q[title: "#{@title}", author: "#{@author}", publication_year: "#{@publication_year}"]
   end
 
   def display_info
-    puts %Q[LibraryItem {#{self.item_info}}]
+    puts %Q[LibraryItem { #{self.item_info} }]
   end
 end
 
@@ -27,7 +27,7 @@ class Book < LibraryItem
   end
 
   def display_info
-    puts %Q[Book {#{self.item_info}, isbn="#{@isbn}", genre="#{@genre}", page_count="#{@page_count}"}]
+    puts %Q[Book { #{self.item_info}, isbn: "#{@isbn}", genre: "#{@genre}", page_count: "#{@page_count}" }]
   end
 end
 
@@ -42,7 +42,7 @@ class DVD < LibraryItem
   end
 
   def display_info
-    puts %Q[DVD {#{self.item_info}, length_mins="#{@length_mins}"}]
+    puts %Q[DVD { #{self.item_info}, length_mins: "#{@length_mins}" }]
   end
 end
 
@@ -57,7 +57,7 @@ class CD < LibraryItem
   end
 
   def display_info
-    puts %Q[CD {#{self.item_info}, record_label="#{@record_label}", length_secs="#{@length_secs}"}]
+    puts %Q[CD { #{self.item_info}, record_label: "#{@record_label}", length_secs: "#{@length_secs}" }]
   end
 end
 
@@ -94,6 +94,8 @@ cd = CD.new("A Day at the Races", "Queen", 1976, "Rock", "Elektra Records", 2664
 book.display_info
 dvd.display_info
 cd.display_info
+
+puts
  
 # Create a library and add items to it
 library = Library.new
