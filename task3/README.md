@@ -1,6 +1,6 @@
 # Task 3 - OOP in Ruby
 
-This solution demonstrates how OOP works in Ruby. The class `LibraryItem` has three children: `Book`, `DVD`, and `CD`. `LibraryItem` has some general properties and the children have some specific properties. The `Library` class aggregates different library items using polymorphism. The demonstration code (the top-level statements after the class declarations) was taken from the assignment description on Blackboard. I only modified the parameters in class declarations.
+This solution demonstrates how OOP works in Ruby. The class `LibraryItem` has three children: `Book`, `DVD`, and `CD`. `LibraryItem` has some general properties and the children have some specific properties. The `Library` class aggregates different library items using polymorphism. The demonstration code (the top-level statements after the class declarations) was taken from the assignment description on Blackboard. I only modified the parameters in class declarations and added a `puts` call in the middle to improve the readability of the output.
 
 To run this code, make sure to have `ruby` installed on your machine and use the following command:
 
