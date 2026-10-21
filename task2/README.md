@@ -31,7 +31,7 @@ parent.PrintNum(1337);
 parent.PrintNum(133.7);
 ```
 
-Which version of the method is called at each line is determined at compile time, i.e. a _static binding_ is performed.
+The `new` keyword here instantiates an object of type `CoolClass`. Which version of the method is called at each line is determined at compile time, i.e. a _static binding_ is performed.
 
 ### Dynamic Binding
 
