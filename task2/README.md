@@ -2,7 +2,7 @@
 
 This solution shows the differences between static and dynamic binding in C#. There are three classes: `CoolClass`, `CoolChild`, and `Program`. The binding differences are demonstrated in the first two. Static binding is represented by method _overloading_, and dynamic binding is represented by method _overriding_.
 
-To run the code, please use the Online GDB service: https://www.onlinegdb.com/ or another similar resource. Select `C# (dotnet)` from the list of available languages and paste the code from `main.cs`.
+To run the code you can use an online environment like OnlineGDB (https://onlinegdb.com/j5wsVnB32i) or another similar resource.
 
 ## Description of the Solution
 

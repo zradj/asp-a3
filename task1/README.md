@@ -24,6 +24,8 @@ Then run it:
 ./main
 ```
 
+Alternatively, you can use an online environment like OnlineGDB (https://onlinegdb.com/-40de056o) or another similar resource. However, note that the "heap array without `free`" part will probably cause an error exit in online environments due to the harsh memory constraints (this is also true on OnlineGDB). For this reason, it is better to test this code locally if you want to see the full output.
+
 Also, this code uses some Assembly snippets. The full C-to-Assembly conversion can be accessed here: https://godbolt.org/z/jedd3h11v
 
 ## Runtime Analysis
