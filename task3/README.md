@@ -8,7 +8,7 @@ To run this code, make sure to have `ruby` installed on your machine and use the
 ruby main.rb
 ```
 
-Alternatively, you can use an online environment like OnlineGDB (https://onlinegdb.com/RXXlIUItT) or another similar resource.
+Alternatively, you can use an online environment like OnlineGDB (https://onlinegdb.com/o3-I8PrcG) or another similar resource.
 
 ## Notes on the Implementation
 
